@@ -1,11 +1,16 @@
 export const theme = {
   colors: {
-    primary: "#6b4ce6",
+    // primary: "#6b4ce6",
+    primary: "#ff9900",
     secondary: "#d6ccff",
     success: "#51fb51",
     danger: "#fb5151",
-    dark: "#241e38",
+    // dark: "#241e38",
     gray: "#9e98b3",
+    // lightgray: "#f5f5f5",
+    dark: "#232f3e",
+    // gray: "#ececec",
+    lightgray: "#f0f1f5",
     light: "#f0eef6",
     white: "#fff",
     black: "#151221",
@@ -21,5 +26,5 @@ export const theme = {
   cardPadding: "1rem",
   borderRadius: "2rem",
   buttonPadding: "0.6rem 2rem",
-  searchPadding: "0.6rem 1rem",
+  searchPadding: "0.5rem 1rem",
 };

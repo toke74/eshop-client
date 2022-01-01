@@ -16,8 +16,8 @@ const GlobalStyles = createGlobalStyle`
     html,
     body {
         font-family: 'Poppins', sans-serif;
-        color: var(--color-dark);
-        background: var(--color-light);
+        color: ${({ theme }) => theme.colors.dark};
+        background: ${({ theme }) => theme.colors.light};
         overflow-x: hidden;
     }
 
