@@ -108,12 +108,6 @@ export const BadgeCartIcon = styled(Badge)`
   }
 `;
 
-export const TopButtons = styled.div`
-  @media (max-width: ${({ theme }) => theme.device.md}) {
-    display: none;
-  }
-`;
-
 export const LoginButton = styled.button`
   background: none;
   border: 1px solid ${({ theme }) => theme.colors.primary};

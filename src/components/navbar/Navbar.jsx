@@ -7,11 +7,11 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Box from "@mui/material/Box";
 
 //local stuff
-import * as S from "./Navbar.styles";
+import * as S from "./navbar.styles";
 import DrawerNavbar from "../Drawer/DrawerNavbar";
 import ProfileMenu from "./ProfileMenu";
 
-const authenticated = true;
+const authenticated = false;
 
 const Navbar = () => {
   //profile Menu
@@ -82,17 +82,16 @@ const Navbar = () => {
             <ArrowDropDownIcon />
           </Box>
         ) : (
-          <S.TopButtons>
+          <>
             <S.LoginButton>Log in</S.LoginButton>
             <S.SignupButton>Sign up</S.SignupButton>
-          </S.TopButtons>
+          </>
         )}
         <ProfileMenu
           openProfile={openProfile}
           profile={profile}
           handleProfileClose={handleProfileClose}
         />
-        {/* <DrawerNavbar authenticated={authenticated} /> */}
       </S.RightNavbar>
     </S.Container>
   );

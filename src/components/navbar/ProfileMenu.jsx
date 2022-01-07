@@ -7,7 +7,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import MessageIcon from "@mui/icons-material/Message";
 
 //local file
-import * as s from "./Profile.styles";
+import * as s from "./profile.styles";
 
 const ProfileMenu = ({ openProfile, profile, handleProfileClose }) => {
   return (

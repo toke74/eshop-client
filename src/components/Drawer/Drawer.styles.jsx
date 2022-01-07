@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import IconButton from "@mui/material/IconButton";
 
 export const Container = styled.div`
   @media (min-width: ${({ theme }) => theme.device.md}) {
     display: none;
   }
 `;
+export const IconBtn = styled(IconButton)`
+  margin-left: 10px !important;
+  cursor: pointer;
+`;
+
 export const DrawerWrapper = styled.div`
   margin-top: 20px;
 `;
@@ -18,7 +24,6 @@ export const Wrapper = styled.div`
     background: ${({ theme }) => theme.colors.lightgray};
   }
 `;
-
 
 export const DrawerText = styled.span`
   margin-left: 35px;
